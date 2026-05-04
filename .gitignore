@@ -1,0 +1,123 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ═══════════════════════════════════════════════════
+# 🔒 SENSITIVE FILES - CRITICAL! NEVER COMMIT THESE!
+# ═══════════════════════════════════════════════════
+
+# API Keys (Gemini, etc.)
+lib/core/constants/api_keys.dart
+
+# Firebase Configuration (contains project secrets)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+ios/firebase_app_id_file.json
+
+# Android Signing Keys (used to sign release APKs)
+key.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS Provisioning & Certificates
+*.mobileprovision
+*.p12
+*.cer
+
+# Environment files (if you ever use them)
+.env
+.env.local
+.env.production
+
+# ═══════════════════════════════════════════════════
+# 🤖 AUTO-GENERATED FILES (Hive, Riverpod, Freezed)
+# ═══════════════════════════════════════════════════
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# ═══════════════════════════════════════════════════
+# 📱 ANDROID
+# ═══════════════════════════════════════════════════
+android/.gradle
+android/captures/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/.idea/
+
+# ═══════════════════════════════════════════════════
+# 🍎 iOS
+# ═══════════════════════════════════════════════════
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+ios/**/Pods/
+ios/**/xcuserdata
+ios/**/DerivedData/
+
+# ═══════════════════════════════════════════════════
+# 🔥 FIREBASE
+# ═══════════════════════════════════════════════════
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# ═══════════════════════════════════════════════════
+# 🖥️ OS SPECIFIC
+# ═══════════════════════════════════════════════════
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

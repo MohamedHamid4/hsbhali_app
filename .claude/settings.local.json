@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub *)",
+      "Bash(flutter analyze *)",
+      "Bash(flutter test *)",
+      "Bash(dart run *)",
+      "Bash(flutter --version)",
+      "Bash(flutter clean *)",
+      "Bash(flutter build *)",
+      "Bash(where dart *)",
+      "Bash(where node *)",
+      "Bash(cp lib/main.dart /tmp/main_orig.dart)",
+      "Bash(cp lib/main.dart lib/main.dart.bak)",
+      "Bash(dart analyze *)",
+      "Bash(cat C:\\\\\\\\Users\\\\\\\\HP\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\D--Projects-Flutter-hsbhali-app\\\\\\\\ba71e925-31a3-43be-acb2-21c4d17a1bfe\\\\\\\\tasks\\\\\\\\b20fj144f.output)",
+      "Bash(dart test *)",
+      "Bash(where flutter *)",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\('assets/icons/splash_logo.png'\\); print\\(img.size, img.mode\\)\")"
+    ]
+  }
+}
